@@ -1,0 +1,1618 @@
+@charset "UTF-8";
+@font-face {
+    font-family: pnbk;
+    src: url(../fonts/ProximaNova-Black.ttf)
+}
+@font-face {
+    font-family: pnb;
+    src: url(../fonts/ProximaNova-Bold.ttf)
+}
+@font-face {
+    font-family: pneb;
+    src: url(../fonts/ProximaNova-Extrabld.ttf)
+}
+@font-face {
+    font-family: pnl;
+    src: url(../fonts/ProximaNova-Light.ttf)
+}
+@font-face {
+    font-family: pnr;
+    src: url(../fonts/ProximaNova-Regular.ttf)
+}
+@font-face {
+    font-family: pnsb;
+    src: url(../fonts/ProximaNova-Semibold.ttf)
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 992px
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px
+    }
+}
+body {
+    font-size: 17px;
+    line-height: 24px;
+    font-family: pnsb;
+    color: #333
+}
+button {
+    outline: 0;
+    cursor: pointer
+}
+button:focus {
+    outline: 0
+}
+input {
+    outline: 0
+}
+input:focus {
+    outline: 0
+}
+header .header {
+    padding-top: 20px;
+    padding-bottom: 18px
+}
+header .header .logo-block {
+    width: 524px
+}
+header .header .logo-block img {
+    margin-right: 28px
+}
+header .header .logo-block span {
+    font-size: 19px;
+    display: block;
+    margin-bottom: -5px
+}
+header .header .contacts .tel-block {
+    margin-right: 28px;
+    margin-bottom: -5px
+}
+header .header .contacts .tel-block img {
+    margin-right: 13px
+}
+header .header .contacts .tel-block div a {
+    font-size: 28px;
+    color: #003955;
+    font-family: pneb;
+    display: block
+}
+header .header .contacts .tel-block div a:hover {
+    text-decoration: none
+}
+header .header .contacts .tel-block div span {
+    color: #003955;
+    display: block
+}
+header .header .contacts button {
+    width: 172px;
+    height: 48px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-family: pneb;
+    font-size: 14px;
+    background: #0188cc;
+    border: none;
+    color: #fff;
+    text-transform: uppercase
+}
+header .header .contacts button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0188cc), to(#69b9e1));
+    background: -webkit-linear-gradient(top, #0188cc 0, #69b9e1 100%);
+    background: -o-linear-gradient(top, #0188cc 0, #69b9e1 100%);
+    background: linear-gradient(180deg, #0188cc 0, #69b9e1 100%)
+}
+header nav {
+    background: #3f4955;
+    padding: 6px 0;
+    width: 100%
+}
+header nav a {
+    color: #fff
+}
+header nav a:hover {
+    text-decoration: none;
+    color: #fff
+}
+header nav.stickytop {
+    position: fixed;
+    top: 0;
+    z-index: 300
+}
+main .first-block {
+    background: url(../images/first-block-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 65px 0
+}
+main .first-block .col-12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px
+}
+main .first-block .h1-block {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .8);
+    width: 741px;
+    height: 414px;
+    padding: 49px 31px;
+    text-align: center;
+    position: relative
+}
+main .first-block .h1-block h1 {
+    font-size: 60px;
+    color: #0188cc;
+    font-family: pneb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 15px
+}
+main .first-block .h1-block h2 {
+    font-size: 39px;
+    color: #14303e;
+    line-height: 1;
+    font-family: pnb;
+    margin-bottom: 40px
+}
+main .first-block .h1-block p {
+    color: #c00;
+    font-size: 29px;
+    font-family: pnb;
+    line-height: 34px;
+    margin-bottom: 0
+}
+main .first-block .h1-block span {
+    font-family: pnb;
+    font-size: 34px;
+    color: #fff;
+    background: url(../images/akcii.png) no-repeat center center;
+    display: block;
+    height: 69px;
+    text-transform: uppercase;
+    margin-bottom: 16px
+}
+main .first-block .calculate {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #2d343c;
+    -webkit-box-shadow: 0 0 11.68px 4.32px rgba(0, 0, 1, .05);
+    box-shadow: 0 0 11.68px 4.32px rgba(0, 0, 1, .05);
+    width: 369px;
+    height: 414px;
+    color: #fff
+}
+main .first-block .calculate .calculate-head {
+    padding: 22px 31px 15px;
+    font-size: 26px;
+    font-family: pnb;
+    text-transform: uppercase;
+    text-align: center
+}
+main .first-block .calculate .calculate-head h2 {
+    margin-bottom: 0
+}
+main .first-block .calculate hr {
+    margin: 0;
+    border-color: #3f4955
+}
+main .first-block .calculate .calculate-body {
+    padding: 22px 31px;
+    justify-self: flex-end
+}
+main .first-block .calculate .calculate-body form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 14px
+}
+main .first-block .calculate .calculate-body form div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+main .first-block .calculate .calculate-body form div label {
+    font-size: 18px
+}
+main .first-block .calculate .calculate-body form div input {
+    border-width: 1px;
+    border-color: #d1d1d1;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    height: 41px;
+    font-size: 20px;
+    color: #033;
+    text-align: center
+}
+main .first-block .calculate .calculate-body form div #square {
+    width: 90px;
+    margin-left: auto
+}
+main .first-block .calculate .calculate-body form div #price {
+    width: 154px;
+    margin-left: auto
+}
+main .first-block .calculate .calculate-body form div #phone {
+    width: 167px;
+    margin-left: auto;
+    font-size: 16px;
+    text-align: left;
+    padding: 0 15px
+}
+main .first-block .calculate .calculate-body form p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 5px
+}
+main .first-block .calculate .calculate-body form button {
+    width: 306px;
+    height: 53px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(360deg, #f6d30c 0, #ffe937 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -webkit-box-shadow: 0 4px 0 0 #e7ae01;
+    box-shadow: 0 4px 0 0 #e7ae01;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: pnb
+}
+main .first-block .calculate .calculate-body form button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(180deg, #f6d30c 0, #ffe937 100%)
+}
+main .characteristics {
+    padding-top: 90px;
+    padding-bottom: 90px
+}
+main .characteristics h2 {
+    font-size: 36px;
+    color: #003955;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px
+}
+main .characteristics .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 50px 50px
+}
+main .characteristics .grid .item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+main .characteristics .grid .item .img-block {
+    width: 65px;
+    height: 65px;
+    border-width: 2px;
+    border-color: #e8e8e8;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 31px;
+    margin-top: 3px
+}
+main .characteristics .grid .item .desc {
+    width: 250px
+}
+main .characteristics .grid .item .desc h3 {
+    font-size: 23px;
+    color: #003955;
+    font-family: pnb;
+    margin-bottom: 10px
+}
+main .characteristics .grid .item .desc span {
+    line-height: 1
+}
+main .kinds {
+    background: #f3f2f2;
+    padding-top: 90px;
+    padding-bottom: 100px
+}
+main .kinds h2 {
+    font-size: 36px;
+    color: #003955;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px
+}
+main .kinds .grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+main .kinds .grid .item {
+    height: 521px;
+    width: 370px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden
+}
+main .kinds .grid .item .wrap {
+    padding: 18px 32px 22px
+}
+main .kinds .grid .item .wrap .img {
+    height: 277px;
+    width: 100%
+}
+main .kinds .grid .item .wrap h3 {
+    font-size: 28px;
+    font-family: pnb;
+    color: #003955;
+    text-align: center
+}
+main .kinds .grid .item .wrap .item-price {
+    font-size: 24px;
+    font-family: pnb;
+    color: #0188cc;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px
+}
+main .kinds .grid .item .wrap button {
+    width: 306px;
+    height: 53px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(360deg, #f6d30c 0, #ffe937 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -webkit-box-shadow: 0 4px 0 0 #e7ae01;
+    box-shadow: 0 4px 0 0 #e7ae01;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: pnb;
+    width: 100%;
+    margin-top: 22px
+}
+main .kinds .grid .item .wrap button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(180deg, #f6d30c 0, #ffe937 100%)
+}
+main .kinds .grid .item .wrap div span {
+    display: block;
+    margin-bottom: 5px
+}
+main .kinds .grid .item .wrap div span img {
+    margin-right: 5px;
+    margin-top: -3px
+}
+main .texnology {
+    padding-top: 90px;
+    padding-bottom: 90px
+}
+main .texnology .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+main .texnology h2 {
+    font-size: 36px;
+    color: #003955;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center
+}
+main .texnology img {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 25px
+}
+main .texnology h3 {
+    font-size: 20px;
+    font-family: pnb;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center
+}
+main .zamer {
+    background: url(../images/bg2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 44px 0 32px
+}
+main .zamer .h2-block {
+    width: 550px;
+    color: #fff
+}
+main .zamer .h2-block h2 {
+    font-size: 51px;
+    display: block;
+    margin-bottom: 30px
+}
+main .zamer .h2-block span {
+    font-size: 26px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 1.2
+}
+main .zamer .h2-block span.first {
+    margin-bottom: 25px
+}
+main .zamer .h2-block span img {
+    margin-right: 20px
+}
+main .zamer .form {
+    width: 369px;
+    height: 300px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11.68px 4.32px rgba(0, 0, 1, .05);
+    box-shadow: 0 0 11.68px 4.32px rgba(0, 0, 1, .05);
+    padding: 28px 33px 34px;
+    text-align: center
+}
+main .zamer .form h3 {
+    font-size: 26px;
+    font-family: pnb;
+    color: #003955;
+    text-transform: uppercase;
+    margin-bottom: 2px
+}
+main .zamer .form span {
+    font-size: 21px;
+    font-family: pnb;
+    color: #003955;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    display: block
+}
+main .zamer .form h4 {
+    font-family: pnb;
+    display: block;
+    background: url(../images/akcii2.png) no-repeat center center;
+    font-size: 17px;
+    font-family: pnb;
+    text-transform: uppercase;
+    color: #fff;
+    width: 256px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 21px
+}
+main .zamer .form form button {
+    width: 306px;
+    height: 53px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(360deg, #f6d30c 0, #ffe937 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -webkit-box-shadow: 0 4px 0 0 #e7ae01;
+    box-shadow: 0 4px 0 0 #e7ae01;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: pnb;
+    width: 100%
+}
+main .zamer .form form button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(180deg, #f6d30c 0, #ffe937 100%)
+}
+main .zamer .form form input {
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    height: 47px;
+    padding: 0 16px;
+    margin-bottom: 12px
+}
+main .potolki-for {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+main .potolki-for h2 {
+    color: #003955;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center
+}
+main .potolki-for .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-row-gap: 30px
+}
+main .potolki-for .item {
+    text-align: center
+}
+main .potolki-for .item img {
+    display: block;
+    margin-bottom: 15px
+}
+main .potolki-for .item span {
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: pnb
+}
+main .ask {
+    background: #e8e8e8;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    text-align: center
+}
+main .ask h2 {
+    color: #003955;
+    font-size: 36px
+}
+main .ask h3 {
+    font-size: 24px;
+    color: #121313
+}
+main .ask h3 a {
+    color: #c00
+}
+main .ask .ask-blocks {
+    margin-top: 20px
+}
+main .ask .ask-blocks .item {
+    text-align: left;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 13px;
+    overflow: hidden;
+    border: 2px solid #0188cc
+}
+main .ask .ask-blocks .item h4 {
+    width: 100%;
+    height: 65px;
+    color: #fff;
+    font-size: 22px;
+    padding: 0 24px;
+    padding-right: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #0188cc;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer
+}
+main .ask .ask-blocks .item h4:after {
+    content: '+';
+    font-size: 40px;
+    position: absolute;
+    right: 13px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    line-height: 34px;
+    height: 32px
+}
+main .ask .ask-blocks .item h4.active:after {
+    content: '–';
+    font-size: 34px;
+    line-height: 26px
+}
+main .ask .ask-blocks .item div {
+    width: 100%;
+    padding: 15px 24px;
+    background: #fff;
+    font-family: pnr;
+    color: #1d1a1a;
+    display: none
+}
+main .ask .ask-blocks .item div.active {
+    width: 100%;
+    left: -2px;
+    height: auto;
+    z-index: 100;
+    display: block
+}
+main .ask button {
+    width: 306px;
+    height: 53px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(360deg, #f6d30c 0, #ffe937 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -webkit-box-shadow: 0 4px 0 0 #e7ae01;
+    box-shadow: 0 4px 0 0 #e7ae01;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: pnb;
+    margin-top: 20px
+}
+main .ask button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(180deg, #f6d30c 0, #ffe937 100%)
+}
+main .reviews {
+    padding-top: 85px;
+    padding-bottom: 65px
+}
+main .reviews h2 {
+    font-size: 36px;
+    color: #003955;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 130px
+}
+main .reviews .items {
+    display: grid;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 366px)
+}
+main .reviews .items .item {
+    text-align: center;
+    border-width: 2px;
+    border-color: #e8e8e8;
+    border-style: solid;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 366px;
+    height: 100%;
+    padding: 0 30px 50px
+}
+main .reviews .items .item img {
+    width: 186px;
+    height: 187px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -95px;
+    margin-bottom: 15px
+}
+main .reviews .items .item h5 {
+    margin-bottom: 10px
+}
+main .reviews .items .item span {
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: pnr
+}
+main .call {
+    text-align: center;
+    padding: 70px 0 65px;
+    background: -webkit-gradient(linear, left top, right top, from(#0188cc), to(#14b0ff));
+    background: -webkit-linear-gradient(left, #0188cc 0, #14b0ff 100%);
+    background: -o-linear-gradient(left, #0188cc 0, #14b0ff 100%);
+    background: linear-gradient(90deg, #0188cc 0, #14b0ff 100%)
+}
+main .call h2 {
+    font-size: 40px;
+    font-family: pneb;
+    line-height: 51px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 13px
+}
+main .call h3 {
+    font-size: 26px;
+    font-family: pnr;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #fff
+}
+main .call button {
+    width: 306px;
+    height: 53px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(360deg, #f6d30c 0, #ffe937 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -webkit-box-shadow: 0 4px 0 0 #e7ae01;
+    box-shadow: 0 4px 0 0 #e7ae01;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: pnb
+}
+main .call button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(180deg, #f6d30c 0, #ffe937 100%)
+}
+main #map {
+    width: 100%;
+    height: 440px;
+    position: relative
+}
+main #map .col-12 {
+    position: relative
+}
+main #map .places {
+    border-width: 2px;
+    border-color: #c1c1c1;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, .8);
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 2, .08);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 2, .08);
+    position: absolute;
+    width: 427px;
+    height: 211px;
+    z-index: 100;
+    top: 100px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    display: block;
+    padding: 25px 0;
+    text-align: center
+}
+main #map .places .places-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+main #map .places span {
+    display: block;
+    font-size: 22px;
+    color: #1c1d1e;
+    margin-top: 20px
+}
+main #map .places div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px
+}
+main #map .places div img {
+    margin-right: 13px
+}
+main #map .places div a {
+    color: #c00;
+    font-size: 34px;
+    font-family: pneb
+}
+main #map .places div a:hover {
+    text-decoration: none
+}
+footer {
+    background: #003955;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    color: #fff
+}
+footer .col-12 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+footer .copy {
+    font-size: 14px
+}
+footer .desc {
+    font-size: 20px;
+    font-family: pnr
+}
+footer a {
+    display: block;
+    color: #fff;
+    text-align: right
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none
+}
+footer a.link-tel {
+    font-size: 18px;
+    margin-bottom: 5px
+}
+footer a.link-mail {
+    font-size: 16px
+}
+footer a img {
+    margin-right: 13px
+}
+.up {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #959595;
+    opacity: .62;
+    position: fixed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    right: 50px;
+    bottom: 50px;
+    width: 55px;
+    height: 55px;
+    z-index: 300;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease
+}
+.up:hover {
+    opacity: 1
+}
+@media (max-width: 1199px) {
+    header .header .logo-block {
+        width: 100%
+    }
+    header .header .contacts {
+        width: 100%;
+        margin-top: 20px
+    }
+    main .first-block .col-12 {
+        grid-template-columns: 1fr
+    }
+    main .first-block .h1-block {
+        margin-left: auto;
+        margin-right: auto
+    }
+    main .first-block .calculate {
+        margin-left: auto;
+        margin-right: auto
+    }
+    main .characteristics .grid {
+        grid-template-columns: repeat(2, 350px);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    main .kinds .grid {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+        -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly
+    }
+    main .kinds .grid .item3 {
+        margin-top: 50px
+    }
+    main .texnology .grid {
+        grid-template-columns: repeat(2, 250px);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        grid-gap: 30px 50px
+    }
+    main .potolki-for .grid {
+        grid-template-columns: repeat(2, 370px);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        grid-gap: 30px 50px
+    }
+    main .ask .ask-blocks {
+        grid-template-columns: repeat(2, 455px)
+    }
+    main .reviews .items {
+        grid-template-columns: repeat(2, 366px);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        grid-gap: 130px 50px
+    }
+    main .reviews .items .item3 {
+        grid-row: 2;
+        grid-column: 1/3;
+        justify-self: center
+    }
+}
+@media (max-width: 991px) {
+    main .first-block .h1-block {
+        width: 100%
+    }
+    main .first-block .h1-block h1 {
+        font-size: 54px
+    }
+    main .first-block .h1-block h2 {
+        font-size: 36px;
+        margin-bottom: 30px
+    }
+    main .first-block .h1-block span {
+        margin-bottom: 20px
+    }
+    main .first-block .h1-block p {
+        font-size: 28px;
+        line-height: 40px
+    }
+    main .characteristics .grid {
+        grid-template-columns: repeat(2, 320px);
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        grid-gap: 50px 10px
+    }
+    main .characteristics .grid .item .desc h3 {
+        font-size: 21px
+    }
+    main .characteristics .grid .item .desc span {
+        font-size: 16px
+    }
+    main .kinds .grid .item2 {
+        margin-top: 50px
+    }
+    main .zamer .h2-block {
+        margin-left: auto;
+        margin-right: auto
+    }
+    main .zamer .form {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px
+    }
+    main .potolki-for .grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    main .potolki-for .item img {
+        width: 100%
+    }
+    main .ask .ask-blocks {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 13px
+    }
+    main .ask .ask-blocks .item h4 {
+        font-size: 20px
+    }
+    main .reviews .items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 130px 30px
+    }
+    main .reviews .items .item {
+        width: 100%
+    }
+    main .call h2 {
+        font-size: 33px
+    }
+    footer .copy {
+        font-size: 12px
+    }
+    footer .desc {
+        font-size: 16px
+    }
+    footer a.link-tel {
+        font-size: 14px
+    }
+    footer a.link-mail {
+        font-size: 14px
+    }
+}
+@media (max-width: 767px) {
+    header .header .logo-block span {
+        font-size: 17px
+    }
+    header .header .contacts .tel-block div a {
+        font-size: 26px
+    }
+    header .header .contacts .tel-block div span {
+        font-size: 16px
+    }
+    main .first-block .h1-block h1 {
+        font-size: 39px
+    }
+    main .first-block .h1-block h2 {
+        font-size: 26px
+    }
+    main .first-block .h1-block p {
+        font-size: 20px;
+        line-height: 36px
+    }
+    main .first-block .h1-block {
+        height: 360px
+    }
+    main .characteristics .grid {
+        grid-template-columns: 1fr
+    }
+    main .characteristics .grid .item {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    main .texnology .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px 20px
+    }
+    main .zamer .h2-block h2 {
+        font-size: 49px;
+        text-align: center
+    }
+    main .potolki-for .grid {
+        grid-gap: 30px 20px
+    }
+    main .ask {
+        padding-top: 70px
+    }
+    main .ask h3 {
+        font-size: 18px;
+        line-height: 24px
+    }
+    main .ask .ask-blocks {
+        grid-template-columns: 1fr
+    }
+    main .ask .ask-blocks2 {
+        margin-top: 0
+    }
+    main .reviews .items {
+        grid-template-columns: 1fr
+    }
+    main .reviews .items .item3 {
+        grid-column: 1
+    }
+    main .call h2 {
+        font-size: 24px;
+        line-height: 36px
+    }
+    main .call h3 {
+        font-size: 20px
+    }
+    .up {
+        right: 20px;
+        bottom: 20px
+    }
+    footer .copy {
+        width: 100%;
+        font-size: 14px
+    }
+    footer .col-12 {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    footer .desc {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 18px;
+        display: block
+    }
+    footer a.link-tel {
+        text-align: center;
+        font-size: 18px
+    }
+    footer a.link-mail {
+        text-align: center;
+        font-size: 16px
+    }
+    footer .footer-contacts {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px
+    }
+    main #map {
+        height: 600px;
+        overflow: hidden
+    }
+    main #map .container {
+        max-width: 100%;
+        padding: 0
+    }
+    main #map .places {
+        position: static;
+        width: 100%;
+        border: none
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 10px 0
+    }
+    nav svg {
+        width: 30px;
+        height: 30px
+    }
+}
+@media (max-width: 575px) {
+    header .header .logo-block img {
+        margin: 0 auto
+    }
+    header .header .logo-block span {
+        text-align: center;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    header .header {
+        padding-left: 0;
+        padding-right: 0
+    }
+    header .header .contacts .tel-block {
+        margin: 0;
+        width: 100%
+    }
+    header .header .contacts .tel-block div a {
+        font-size: 24px
+    }
+    header .header .contacts .tel-block div span {
+        font-size: 15px
+    }
+    header .header .contacts button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px
+    }
+    main .first-block .col-12 {
+        grid-template-columns: 100%
+    }
+    main .first-block .h1-block {
+        padding: 30px 20px;
+        height: auto
+    }
+    main .first-block .h1-block span {
+        font-size: 22px;
+        -webkit-background-size: 100% 100%;
+        background-size: 100%;
+        margin-bottom: 0;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    main .first-block .h1-block p {
+        line-height: 24px
+    }
+    main .first-block .h1-block h2 {
+        margin-bottom: 0
+    }
+    main .first-block .calculate {
+        max-width: 369px;
+        height: auto;
+        width: 100%
+    }
+    main .first-block .calculate .calculate-body form div {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    main .first-block .calculate .calculate-body form div label {
+        width: 100%;
+        text-align: center
+    }
+    main .first-block .calculate .calculate-body form div input {
+        margin: 0 auto
+    }
+    main .first-block .calculate .calculate-body form {
+        grid-template-columns: 100%
+    }
+    main .texnology .grid {
+        grid-template-columns: 1fr;
+        text-align: center
+    }
+    main .characteristics .grid {
+        grid-template-columns: 100%
+    }
+    main .characteristics .grid .item .img-block {
+        margin-right: 20px
+    }
+    main .ask button {
+        width: 100%;
+        max-width: 306px
+    }
+    main .call button {
+        width: 100%;
+        max-width: 306px
+    }
+    main .zamer .form {
+        max-width: 369px;
+        width: 100%
+    }
+    main .first-block .calculate .calculate-body form button {
+        max-width: 306px;
+        width: 100%
+    }
+    main .characteristics h2 {
+        font-size: 32px
+    }
+    main .characteristics .grid .item .desc {
+        width: 188px
+    }
+    main .characteristics .grid .item .desc h3 {
+        font-size: 20px;
+        margin-bottom: 5px
+    }
+    main .characteristics .grid .item .desc span {
+        font-size: 14px
+    }
+    main .kinds {
+        padding-top: 70px
+    }
+    main .kinds h2 {
+        font-size: 32px
+    }
+    main .kinds .grid .item .wrap {
+        padding: 18px 20px 22px
+    }
+    main .kinds .grid .item .img {
+        width: 100%;
+        height: auto
+    }
+    main .kinds .grid .item .wrap h3 {
+        font-size: 21px
+    }
+    main .kinds .grid .item .wrap .item-price {
+        font-size: 20px
+    }
+    main .kinds .grid .item {
+        height: auto
+    }
+    main .characteristics {
+        padding-top: 70px
+    }
+    main .texnology h2 {
+        font-size: 32px
+    }
+    main .texnology {
+        padding-top: 70px;
+        padding-bottom: 70px
+    }
+    main .zamer .h2-block h2 {
+        font-size: 26px
+    }
+    main .zamer .h2-block span {
+        font-size: 17px
+    }
+    main .zamer .form h4 {
+        max-width: 256px;
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        background-size: 100%
+    }
+    main .zamer .form {
+        padding: 28px 25px 34px
+    }
+    main .zamer .form h3 {
+        font-size: 19px
+    }
+    main .zamer .form span {
+        font-size: 16px
+    }
+    main .potolki-for h2 {
+        font-size: 32px
+    }
+    main .potolki-for .grid {
+        grid-template-columns: 1fr
+    }
+    main .potolki-for {
+        padding-top: 70px;
+        padding-bottom: 70px
+    }
+    main .ask h2 {
+        font-size: 26px
+    }
+    main .ask .ask-blocks .item h4 {
+        font-size: 16px
+    }
+    main .reviews {
+        padding-top: 70px
+    }
+    main .reviews h2 {
+        font-size: 32px
+    }
+    main .reviews .items .item {
+        padding: 0 15px 50px
+    }
+    main .reviews .items .item span {
+        font-size: 14px
+    }
+    main .call h2 {
+        font-size: 16px;
+        line-height: 24px
+    }
+    main .call h3 {
+        font-size: 16px;
+        line-height: 22px
+    }
+    main #map .places span {
+        font-size: 18px
+    }
+    main #map .places div a {
+        font-size: 24px
+    }
+}
+.success {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-family: pneb;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 22vh;
+    left: 0;
+    right: 0;
+    background: #fdfdfd;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    z-index: 100;
+    display: none;
+    -webkit-box-shadow: 0 0 10px 0;
+    box-shadow: 0 0 10px 0;
+    color: #000
+}
+@media (max-width: 1199px) {
+    .success {
+        top: 200px
+    }
+}
+.modal-open .modal {
+    background: rgba(0, 0, 0, .8)
+}
+.modal .modal-dialog {
+    max-width: 370px;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 380px
+}
+@media (max-width: 361px) {
+    .modal .modal-dialog {
+        max-width: 300px
+    }
+}
+@media (max-width: 1199px) {
+    .modal .modal-dialog {
+        margin-top: 50px
+    }
+}
+.modal .modal-content {
+    background: #fff;
+    border: none;
+    padding: 45px 32px 43px
+}
+@media (max-width: 361px) {
+    .modal .modal-content {
+        padding: 40px 20px 28px
+    }
+}
+.modal .modal-header {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0
+}
+.modal .modal-footer {
+    padding: 0
+}
+.modal .modal-body {
+    padding: 0
+}
+.modal .modal-body button {
+    width: 306px;
+    height: 53px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(360deg, #f6d30c 0, #ffe937 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -webkit-box-shadow: 0 4px 0 0 #e7ae01;
+    box-shadow: 0 4px 0 0 #e7ae01;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: pnb;
+    margin-top: 18px;
+    width: 100%
+}
+.modal .modal-body button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6d30c), to(#ffe937));
+    background: -webkit-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: -o-linear-gradient(top, #f6d30c 0, #ffe937 100%);
+    background: linear-gradient(180deg, #f6d30c 0, #ffe937 100%)
+}
+.modal h2 {
+    font-size: 26px;
+    text-align: center;
+    color: #033;
+    font-family: pnb;
+    text-transform: uppercase;
+    line-height: 28px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px
+}
+.modal h2 span {
+    font-size: 20px
+}
+.modal h4 {
+    font-size: 17px;
+    color: #033;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: pnr
+}
+.modal input {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    outline: 0;
+    border: none;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 10px 19px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    color: #333
+}
+.modal input:focus {
+    outline: 0
+}
+.modal input.tel {
+    margin-bottom: 0
+}
+.modal button {
+    cursor: pointer;
+    outline: 0
+}
+.modal button:focus {
+    outline: 0
+}
+.modal .close {
+    position: absolute;
+    right: 9px;
+    top: 0;
+    opacity: .25;
+    font-size: 36px;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+    font-size: 46px
+}
+.modal .close:hover {
+    opacity: .85
+}
