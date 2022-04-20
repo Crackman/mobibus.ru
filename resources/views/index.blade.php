@@ -105,7 +105,7 @@
 		<div class="first-block">
 			<div class="container">
 				<div class="row">
-					
+
 					<div class="col-12">
 						<div class="h1-block">
 							<h1>Натяжные потолки</h1>
