@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-		<script src="{{ asset('js/app.js') }}"></script>
     <link href="../../public/images/favicon.ico" rel="icon" type="image/x-icon" />
   </head>
   <body>
@@ -380,7 +379,7 @@
 		<div class="reviews container">
 			<div class="row">
 				<div class="col-12">
-					<h2 class="wow fadeInUp" data-wow-duration="2s"">Что говорят о нас клиенты</h2>
+					<h2 class="wow fadeInUp" data-wow-duration="2s">Что говорят о нас клиенты</h2>
 					<div class="items">
 						<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
 							<img src="../../public/images/avatar1.jpg" alt="img">
@@ -445,6 +444,6 @@
 	</footer>
 	<a class="up" href="#"><img src="../../public/images/chevron-up.png" alt="icon"></a>
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+		<script src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>
