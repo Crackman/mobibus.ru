@@ -1,0 +1,69 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.smoothScroll
+{
+  text-decoration: none;
+}
+
+body
+{
+  font-size: 1.1em;
+}
+
+.navbar-collapse
+{
+  text-align: center;
+}
+
+.navbar-nav > .nav-item > .nav-link
+{
+  font-size: 1.3em;
+}
+
+.fa-laptop-code
+{
+  color: dodgerblue;
+}
+
+.fa-computer
+{
+  color: dodgerblue;
+}
+
+.fa-windows
+{
+  color: dodgerblue;
+}
+
+.fa-network-wired
+{
+  color: dodgerblue;
+}
+
+.fa-database
+{
+  color: dodgerblue;
+}
+.fa-headset
+{
+  color: dodgerblue;
+}
+.fa-bars
+{
+  color: white;
+}
+.creep {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
