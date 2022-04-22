@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Auth::routes(['register' => false]);
+Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
