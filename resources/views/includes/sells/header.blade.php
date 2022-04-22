@@ -35,10 +35,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul class="navbar-nav col-12 d-md-flex justify-content-between align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="#цены">Цены</a>
+                  <a class="nav-link text-white" aria-current="page" href="{{ route('index') }}">На главную</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="{{ route('gallery.index') }}">Фото галерея</a>
+                  <a class="nav-link text-white" aria-current="page" href="{{ route('index') }}#цены">Цены</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" aria-current="page" href="{{ route('plug') }}">Статус заказа</a>

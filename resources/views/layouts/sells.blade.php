@@ -73,7 +73,7 @@
     @yield('content')
 </main>
 
-@include('includes.main.footer')
+@include('includes.sells.header')
 
 <a class="up" href="#"><img src="{{ asset('images/chevron-up.png') }}" alt="icon"></a>
 <script src="{{ asset('js/app.js') }}"></script>

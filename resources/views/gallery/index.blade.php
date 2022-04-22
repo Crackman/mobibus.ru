@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.gallery')
 
 @section('description')Галлерея разных убитых компьютеров. @endsection
 

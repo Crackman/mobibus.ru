@@ -22470,12 +22470,19 @@ body:not(.is-using-mouse) .fancybox__container :focus {
   display: block;
 }
 
+footer {
+  margin-top: auto;
+}
+
 .smoothScroll {
   text-decoration: none;
 }
 
 body {
   font-size: 1.1em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-collapse {

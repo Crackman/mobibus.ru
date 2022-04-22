@@ -105,10 +105,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2>Вызовите мастера в любой день,<br>мы работаем без выходных!</h2>
-					<h3><strong style="color: crimson">Внимание: c 20:00 по 8:00 цены на услуги повышены в двое.<br class="d-none d-md-block"> Выполняются только
-							программные ремонты. (Переустановка, восстановление Windows)</strong></h3>
-					<button data-toggle="modal" data-target="#zamer">ОСТАВИТЬ ЗАЯВКУ</button>
+					<h2>Вызовите специалиста в любой день,<br>мы работаем без выходных!</h2>
+					<h3><strong style="color: crimson">Внимание: c 20:00 по 8:00 цены на услуги повышены в двое<br class="d-none d-md-block">
+							 и выполняются только программные ремонты. (Переустановка, восстановление Windows)</strong></h3>
+					<a class="smoothScroll fw-bold display-1 text-white" href="tel:+79517150552">+7 (951) 715 05 52</a>
 				</div>
 			</div>
 		</div>

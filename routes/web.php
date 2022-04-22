@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ImgController;
+use App\Http\Controllers\SaleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,7 +18,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/plug', function () {
+    return view('plug');
+})->name('plug');
 
 Auth::routes(['register' => false]);
 
@@ -26,3 +31,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('img', ImgController::class)->middleware('auth');
 
 Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery.index');
+Route::get('/sales', [SaleController::class, 'index'])->name('sales.index');

@@ -13,6 +13,11 @@
 // Fancyapps
 @import "~@fancyapps/ui/dist/fancybox";
 
+footer
+{
+  margin-top: auto;
+}
+
 .smoothScroll
 {
   text-decoration: none;
@@ -21,6 +26,9 @@
 body
 {
   font-size: 1.1em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-collapse
