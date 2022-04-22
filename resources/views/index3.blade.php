@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-	<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
 <div class="success">Ваша заявка отправлена!</div>
@@ -61,12 +61,12 @@
 			<div class="row">
 				<div class="header col-12 d-flex justify-content-between align-items-center flex-wrap">
 					<div class="logo-block d-flex justify-content-between align-items-end flex-wrap">
-						<img src="images/logo.png" alt="logo">
+						<img src="img/logo.png" alt="logo">
 						<span>Установка натяжных потолков<br>в Москве и Московской обл.</span>
 					</div>
 					<div class="contacts d-flex justify-content-between align-items-center flex-wrap">
 						<div class="tel-block d-flex justify-content-sm-between justify-content-center align-items-end">
-							<img src="images/phone-icon.png" alt="icon">
+							<img src="img/phone-icon.png" alt="icon">
 							<div>
 								<a href="tel:+77777777777">+7 (777) 777 77 77</a>
 								<span>Без выходных с 8:00 до 23:00</span>
@@ -132,63 +132,63 @@
 				<h2 class="wow fadeInDown" data-wow-duration="2s">Быстро, чисто, безопасно!</h2>
 				<div class="grid">
 					<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item1.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item1.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Выгодная цена</h3>
 							<span>Лучшее соотношение цены и качества в Росии!</span>
 						</div>
 					</div>
 					<div class="item item2 wow fadeInUp" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item2.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item2.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Профессионализм</h3>
 							<span>Опытная бригада монтажников и современное оборудование</span>
 						</div>
 					</div>
 					<div class="item item3 wow fadeInRight" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item3.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item3.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Богатый ассортимент</h3>
 							<span>Более 3000 цветов, любые виды, любые фактуры</span>
 						</div>
 					</div>
 					<div class="item item4 wow fadeInLeft" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item4.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item4.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Лучшие материалы</h3>
 							<span>Используем только  качественные экологичные плёнки БЕЗ запаха</span>
 						</div>
 					</div>
 					<div class="item item5 wow fadeInUp" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item5.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item5.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Гарантия 100 лет!</h3>
 							<span>Наши потолки НЕ провисают НЕ выцветают и НЕ портятся</span>
 						</div>
 					</div>
 					<div class="item item6 wow fadeInRight" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item6.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item6.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Заключение договора</h3>
 							<span>Работаем официально, есть все необходимые сертификаты</span>
 						</div>
 					</div>
 					<div class="item item7 wow fadeInLeft" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item7.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item7.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Бесплатный замер</h3>
 							<span>Выезжаем в течении 1 часа или в др. удобное вам время</span>
 						</div>
 					</div>
 					<div class="item item8 wow fadeInUp" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item8.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item8.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Ценим ваше время</h3>
 							<span>Изготовление потолка 1-2 дня, установка за пару часов</span>
 						</div>
 					</div>
 					<div class="item item9 wow fadeInRight" data-wow-duration="2s">
-						<div class="img-block"><img src="images/item9.png" alt="icon"></div>
+						<div class="img-block"><img src="img/item9.png" alt="icon"></div>
 						<div class="desc">
 							<h3>Аккуратный монтаж</h3>
 							<span>После установки выполняем уборку помещения</span>
@@ -205,37 +205,37 @@
 					<h2 class="wow fadeInDown" data-wow-duration="2s">Фактуры натяжных потолков</h2>
 					<div class="grid">
 						<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
-							<img class="img" src="images/kids-item1.jpg" alt="img">
+							<img class="img" src="img/kids-item1.jpg" alt="img">
 							<div class="wrap">
 								<h3>Глянцевые потолки</h3>
 								<span class="item-price">от 1100 Тг</span>
 								<div>
-									<span><img src="images/chech1.png" alt="img">Бесплатный cервис</span>
-									<span><img src="images/chech1.png" alt="img">С установкой</span>
+									<span><img src="img/chech1.png" alt="img">Бесплатный cервис</span>
+									<span><img src="img/chech1.png" alt="img">С установкой</span>
 								</div>
 								<button data-toggle="modal" data-target="#zamer">Оставить заявку</button>
 							</div>
 						</div>
 						<div class="item item2 wow fadeInUp" data-wow-duration="2s">
-							<img class="img" src="images/kids-item2.jpg" alt="img">
+							<img class="img" src="img/kids-item2.jpg" alt="img">
 							<div class="wrap">
 								<h3>Матовые потолки</h3>
 								<span class="item-price">от 1100 Тг</span>
 								<div>
-									<span><img src="images/chech1.png" alt="img">Бесплатный cервис</span>
-									<span><img src="images/chech1.png" alt="img">С установкой</span>
+									<span><img src="img/chech1.png" alt="img">Бесплатный cервис</span>
+									<span><img src="img/chech1.png" alt="img">С установкой</span>
 								</div>
 								<button data-toggle="modal" data-target="#zamer">Оставить заявку</button>
 							</div>
 						</div>
 						<div class="item item3 wow fadeInRight" data-wow-duration="2s">
-							<img class="img" src="images/kids-item3.jpg" alt="img">
+							<img class="img" src="img/kids-item3.jpg" alt="img">
 							<div class="wrap">
 								<h3>Сатиновые потолки</h3>
 								<span class="item-price">от 1100 Тг</span>
 								<div>
-									<span><img src="images/chech1.png" alt="img">Бесплатный cервис</span>
-									<span><img src="images/chech1.png" alt="img">С установкой</span>
+									<span><img src="img/chech1.png" alt="img">Бесплатный cервис</span>
+									<span><img src="img/chech1.png" alt="img">С установкой</span>
 								</div>
 								<button data-toggle="modal" data-target="#zamer">Оставить заявку</button>
 							</div>
@@ -251,19 +251,19 @@
 				<h2 class="wow fadeInUp" data-wow-duration="2s">Технологии натяжных потолков</h2>
 				<div class="grid">
 					<div class="wow fadeInLeft" data-wow-duration="2s">
-						<img src="images/texnology-item1.jpg" alt="img">
+						<img src="img/texnology-item1.jpg" alt="img">
 						<h3>Двухуровневые</h3>
 					</div>
 					<div class="wow fadeInUp" data-wow-duration="2s">
-						<img src="images/texnology-item2.jpg" alt="img">
+						<img src="img/texnology-item2.jpg" alt="img">
 						<h3>Светопропускающие</h3>
 					</div>
 					<div class="wow fadeInUp" data-wow-duration="2s">
-						<img src="images/texnology-item3.jpg" alt="img">
+						<img src="img/texnology-item3.jpg" alt="img">
 						<h3>С фотопечатью</h3>
 					</div>
 					<div class="wow fadeInRight" data-wow-duration="2s">
-						<img src="images/texnology-item4.jpg" alt="img">
+						<img src="img/texnology-item4.jpg" alt="img">
 						<h3>Звездное небо</h3>
 					</div>
 				</div>
@@ -276,8 +276,8 @@
 				<div class="col-12 d-flex justify-content-between align-items-center flex-wrap">
 					<div class="h2-block wow fadeInLeft" data-wow-duration="2s">
 						<h2>Закажите бесплатный<br>замер прямо сейчас!</h2>
-						<span class="first"><img src="images/check.png" alt="icon">Скидка на каждый третий<br>натяжной потолок 20%</span>
-						<span><img src="images/check.png" alt="icon">Каждый 5-й светильник<br>в подарок</span>
+						<span class="first"><img src="img/check.png" alt="icon">Скидка на каждый третий<br>натяжной потолок 20%</span>
+						<span><img src="img/check.png" alt="icon">Каждый 5-й светильник<br>в подарок</span>
 					</div>
 					<div class="form wow fadeInRight" data-wow-duration="2s">
 						<h3>ВЫЗВАТЬ ЗАМЕРЩИКА</h3>
@@ -302,27 +302,27 @@
 		<div class="row">
 			<div class="col-12 grid">
 				<div class="item wow fadeInLeft" data-wow-duration="2s">
-					<img src="images/for-item1.jpg" alt="img">
+					<img src="img/for-item1.jpg" alt="img">
 					<span>Спальни</span>
 				</div>
 				<div class="item wow fadeInUp" data-wow-duration="2s">
-					<img src="images/for-item2.jpg" alt="img">
+					<img src="img/for-item2.jpg" alt="img">
 					<span>Гостинной</span>
 				</div>
 				<div class="item wow fadeInRight" data-wow-duration="2s">
-					<img src="images/for-item3.jpg" alt="img">
+					<img src="img/for-item3.jpg" alt="img">
 					<span>Детской</span>
 				</div>
 				<div class="item wow fadeInLeft" data-wow-duration="2s">
-					<img src="images/for-item4.jpg" alt="img">
+					<img src="img/for-item4.jpg" alt="img">
 					<span>Кухни</span>
 				</div>
 				<div class="item wow fadeInUp" data-wow-duration="2s">
-					<img src="images/for-item5.jpg" alt="img">
+					<img src="img/for-item5.jpg" alt="img">
 					<span>Ванной и туалета</span>
 				</div>
 				<div class="item wow fadeInRight" data-wow-duration="2s">
-					<img src="images/for-item6.jpg" alt="img">
+					<img src="img/for-item6.jpg" alt="img">
 					<span>Офиса</span>
 				</div>
 			</div>
@@ -376,17 +376,17 @@
 				<h2 class="wow fadeInUp" data-wow-duration="2s"">Что говорят о нас клиенты</h2>
 				<div class="items">
 					<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
-						<img src="images/avatar1.jpg" alt="img">
+						<img src="img/avatar1.jpg" alt="img">
 						<h5>Валентина Николаева</h5>
 						<span>Срочно были нужны потолки. Наткнулась в интернете на сайт, позвонила и записалась на замер, объяснила, что срочно надо. Через час  приехал замерщик, приятный молодой человек, показал образцы материала, проконсультировал. Все быстренько померил, посчитал, цена понравилась, помог определиться с выбором светильников, заключили договор.</span>
 					</div>
 					<div class="item item2 wow fadeInUp" data-wow-duration="2s">
-						<img src="images/avatar2.jpg" alt="img">
+						<img src="img/avatar2.jpg" alt="img">
 						<h5>Сергей Артемьев</h5>
 						<span>У нас был ограничен бюджет, поэтому выбирали очень долго. Вызвали несколько замерщиков. В этой компании оказалась самая хорошая цена, поэтому и остановили выбор на них. Ни грамма не пожалели. Всем рекомендую. Отдельно хочу поблагодарить бригаду монтажников. Все сделали аккуратно и быстро, спасибо огромное!</span>
 					</div>
 					<div class="item item3 wow fadeInRight" data-wow-duration="2s">
-						<img src="images/avatar3.jpg" alt="img">
+						<img src="img/avatar3.jpg" alt="img">
 						<h5>Андрей Чудинов</h5>
 						<span>Хорошая компания. Заказывал натяжной потолок на кухню и в спальню. Получилось очень красиво и современно. Большой ассортимент и нормальные цены. Отношение к клиенту человечное. Сделали быстро, после себя убрали, ничего не испортили в квартире, хотя опасения были на этот счет, т.к. работа такая. В общем одни положительные эмоции.</span>
 					</div>
@@ -410,10 +410,10 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="places">
-						<img class="places-logo" src="images/logo.png" alt="logo">
+						<img class="places-logo" src="img/logo.png" alt="logo">
 						<span>г. Москва, Красная площадь, с лева</span>
 						<div>
-							<img src="images/phone-icon.png" alt="img">
+							<img src="img/phone-icon.png" alt="img">
 							<a href="tel:+77777777777">+7 (777) 777 77 77</a>
 						</div>
 					</div>
@@ -429,14 +429,14 @@
 				<div class="copy">Натяжные потолки 2017 Template</div>
 				<div class="desc">Монтаж и обслуживание натяжных<br>потолков в Москве и Московской области</div>
 				<div class="footer-contacts">
-					<a class="link-tel" href="tel:+77777777777"><img src="images/tel.png" alt="icon">+7 (777) 777 77 77</a>
-					<a class="link-mail" href="mailto:натяжные-потолки@gmail.com"><img src="images/mail.png" alt="icon">натяжные-потолки@gmail.com</a>
+					<a class="link-tel" href="tel:+77777777777"><img src="img/tel.png" alt="icon">+7 (777) 777 77 77</a>
+					<a class="link-mail" href="mailto:натяжные-потолки@gmail.com"><img src="img/mail.png" alt="icon">натяжные-потолки@gmail.com</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </footer>
-<a class="up" href="#"><img src="images/chevron-up.png" alt="icon"></a>
+<a class="up" href="#"><img src="img/chevron-up.png" alt="icon"></a>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
